@@ -3,7 +3,7 @@ import SimpleBar from 'simplebar-react';
 import { useLocation } from "react-router-dom";
 import { CSSTransition } from 'react-transition-group';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartPie, faHandHoldingUsd, faCreditCard, faUsers, faFileInvoice, faCog, faSignOutAlt, faTimes, faArrowRight, faHome, faCode, faBuilding, faPlus, faFilter, faExclamationTriangle, faComments } from "@fortawesome/free-solid-svg-icons";
+import { faChartPie, faHandHoldingUsd, faCreditCard, faUsers, faFileInvoice, faCog, faSignOutAlt, faTimes, faArrowRight, faHome, faCode, faBuilding, faPlus, faFilter, faShieldAlt } from "@fortawesome/free-solid-svg-icons";
 import { Nav, Badge, Image, Button, Navbar, Dropdown } from '@themesberg/react-bootstrap';
 import { Link } from 'react-router-dom';
 
