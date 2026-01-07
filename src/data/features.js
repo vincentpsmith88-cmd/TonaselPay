@@ -1,79 +1,77 @@
 
-import { faCalendarAlt, faFileAlt, faImages, faMapMarkedAlt, faMobileAlt, faPenFancy } from "@fortawesome/free-solid-svg-icons";
-import { faAccessibleIcon, faBootstrap, faGulp, faHtml5, faReact, faSass } from "@fortawesome/free-brands-svg-icons";
-
+import { faShieldAlt, faGlobe, faCode, faCreditCard, faChartLine, faMobileAlt, faLock, faRocket, faUsers, faCog, faCheckCircle, faBolt } from "@fortawesome/free-solid-svg-icons";
 
 export default [
     {
         "id": 0,
-        "title": "React.js",
-        "icon": faReact,
-        "description": "The most popular front-end library in the world"
+        "title": "Secure Payments",
+        "icon": faShieldAlt,
+        "description": "Bank-level security for every transaction"
     },
     {
         "id": 1,
-        "title": "Bootstrap 5",
-        "icon": faBootstrap,
-        "description": "Built with the most popular CSS Framework"
+        "title": "Global Reach",
+        "icon": faGlobe,
+        "description": "Accept payments from customers worldwide"
     },
     {
         "id": 2,
-        "title": "Sass",
-        "icon": faSass,
-        "description": "Variables and mixins to empower development"
+        "title": "Easy Integration",
+        "icon": faCode,
+        "description": "Simple APIs and SDKs for quick setup"
     },
     {
         "id": 3,
-        "title": "Responsive",
-        "icon": faMobileAlt,
-        "description": "All pages and components are 100% responsive"
+        "title": "Multiple Payment Methods",
+        "icon": faCreditCard,
+        "description": "Cards, digital wallets, bank transfers, and more"
     },
     {
         "id": 4,
-        "title": "Gulp",
-        "icon": faGulp,
-        "description": "Gulp & BrowserSync for a flawless workflow"
+        "title": "Real-time Analytics",
+        "icon": faChartLine,
+        "description": "Track payments and business performance"
     },
     {
         "id": 5,
-        "title": "Creative rights",
-        "icon": faImages,
-        "description": "All images, icons and fonts are licensed & free to use"
+        "title": "Mobile Optimized",
+        "icon": faMobileAlt,
+        "description": "Seamless payments on any device"
     },
     {
         "id": 6,
-        "title": "Documentation",
-        "icon": faFileAlt,
-        "description": "Everything that comes with Rocket is well documented"
+        "title": "Fraud Protection",
+        "icon": faLock,
+        "description": "Advanced fraud detection and prevention"
     },
     {
         "id": 7,
-        "title": "WCAG Accessibility",
-        "icon": faAccessibleIcon,
-        "description": "Accessibility oriented design and functionality"
+        "title": "Fast Settlement",
+        "icon": faRocket,
+        "description": "Get paid quickly with instant transfers"
     },
     {
         "id": 8,
-        "title": "W3C Validated",
-        "icon": faHtml5,
-        "description": "HTML pages are all valid by W3C Standards"
+        "title": "Customer Management",
+        "icon": faUsers,
+        "description": "Manage customers and subscriptions easily"
+    },
+    {
+        "id": 9,
+        "title": "Customizable",
+        "icon": faCog,
+        "description": "Tailor the platform to your business needs"
     },
     {
         "id": 10,
-        "title": "Calendar",
-        "icon": faCalendarAlt,
-        "description": "Advanced integration with FullCalendar.js"
+        "title": "Compliance Ready",
+        "icon": faCheckCircle,
+        "description": "Built to meet industry standards and regulations"
     },
     {
         "id": 11,
-        "title": "Mapbox",
-        "icon": faMapMarkedAlt,
-        "description": "Custom integration with markers and cards"
-    },
-    {
-        "id": 12,
-        "title": "Design",
-        "icon": faPenFancy,
-        "description": "Crafted by professional UI/UX designers"
+        "title": "Lightning Fast",
+        "icon": faBolt,
+        "description": "High-performance infrastructure for reliability"
     }
 ];
