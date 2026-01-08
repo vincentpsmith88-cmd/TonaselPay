@@ -3,7 +3,7 @@ import SimpleBar from 'simplebar-react';
 import { useLocation } from "react-router-dom";
 import { CSSTransition } from 'react-transition-group';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartPie, faHandHoldingUsd, faCreditCard, faUsers, faFileInvoice, faCog, faSignOutAlt, faTimes, faArrowRight, faHome, faCode, faBuilding, faPlus, faFilter, faShieldAlt } from "@fortawesome/free-solid-svg-icons";
+import { faChartPie, faHandHoldingUsd, faCreditCard, faUsers, faFileInvoice, faCog, faSignOutAlt, faTimes, faArrowRight, faHome, faCode, faBuilding, faPlus, faFilter, faShieldAlt, faClipboardCheck } from "@fortawesome/free-solid-svg-icons";
 import { Nav, Badge, Image, Button, Navbar, Dropdown } from '@themesberg/react-bootstrap';
 import { Link } from 'react-router-dom';
 
@@ -59,10 +59,10 @@ export default (props = {}) => {
                     <FontAwesomeIcon icon={faSignOutAlt} className="me-2" /> Sign Out
                   </Button>
                 </div>
-              </div>
               <Nav.Link className="collapse-close d-md-none" onClick={onCollapse}>
                 <FontAwesomeIcon icon={faTimes} />
               </Nav.Link>
+            </div>
             </div>
             <Nav className="flex-column pt-3 pt-md-0">
               {/* Brand */}
@@ -100,13 +100,13 @@ export default (props = {}) => {
                     </Dropdown.Menu>
                   </Dropdown>
                 </div>
+              </div>
                 <div className="px-2">
-                  <Button variant="success" size="sm" className="w-100">
+                  <Button variant="success" size="sm" className="w-100" as={Link} to={Routes.BusinessRegistration.path}>
                     <FontAwesomeIcon icon={faPlus} className="me-2" />
                     New Business
                   </Button>
                 </div>
-              </div>
 
               {/* Main Dashboard */}
               <div className="sidebar-section mb-3">
@@ -144,4 +144,3 @@ export default (props = {}) => {
     </>
   );
 };
-

@@ -51,6 +51,7 @@ const BusinessRegistration = () => {
           <h1 className="h4">Business Registration</h1>
           <p className="mb-0">Register your business with TonaselPay</p>
         </div>
+      </div>
 
       <Row>
         <Col xs={12}>
