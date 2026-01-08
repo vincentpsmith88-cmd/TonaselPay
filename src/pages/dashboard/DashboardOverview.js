@@ -375,7 +375,7 @@ export default () => {
                         <Card className="border bg-light">
                           <Card.Body>
                             <h6><FontAwesomeIcon icon={faBook} className="me-2" />API Reference</h6>
-                            <p className="small">Complete API documentation with endpoints, parameters, and examples.</p>
+                            <p className="small">Complete API documentation with endpoints, parameters, and auth.</p>
                             <Button variant="primary" size="sm">View API Reference</Button>
                           </Card.Body>
                         </Card>
