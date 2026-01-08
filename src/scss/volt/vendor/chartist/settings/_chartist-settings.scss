@@ -47,7 +47,7 @@ $ct-class-start: ct-start !default;
 $ct-class-end: ct-end !default;
 
 // Container ratio
-$ct-container-ratio: (1/1.618) !default;
+$ct-container-ratio: math.div(1, 1.618) !default;
 
 // Text styles for labels
 $ct-text-color: $gray-700 !default;

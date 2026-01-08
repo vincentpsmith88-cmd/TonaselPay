@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExternalLinkAlt, faDownload, faCheckCircle, faRocket, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
+import { faDownload, faCheckCircle, faRocket, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 import { Col, Row, Button } from '@themesberg/react-bootstrap';
 import { Table } from '@themesberg/react-bootstrap';
 

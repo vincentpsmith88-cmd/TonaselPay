@@ -1,6 +1,7 @@
 /**
 * = Helper classes
 */
+@use "sass:math";
 
 // Overflows
 .overflow-visible {
@@ -10,14 +11,14 @@
 // Opacity classes
 @for $nr from 0 to 10 {
     .opacity-#{$nr} {
-        opacity: #{$nr/10} !important;
+        opacity: #{math.div($nr, 10)} !important;
     }
 }
 
 // Fill opacity classes
 @for $nr from 0 to 10 {
     .fill-opacity-#{$nr} {
-        fill-opacity: #{$nr/10} !important;
+        fill-opacity: #{math.div($nr, 10)} !important;
     }
 }
 

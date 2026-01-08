@@ -232,19 +232,19 @@ export default () => {
             <Col xs={6} md={2} className="mb-5 mb-lg-0">
               <span className="h5">Company</span>
               <ul className="links-vertical mt-2">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><button type="button" className="btn btn-link p-0 text-reset">About Us</button></li>
+                <li><button type="button" className="btn btn-link p-0 text-reset">Careers</button></li>
+                <li><button type="button" className="btn btn-link p-0 text-reset">Blog</button></li>
+                <li><button type="button" className="btn btn-link p-0 text-reset">Contact</button></li>
               </ul>
             </Col>
             <Col xs={6} md={2} className="mb-5 mb-lg-0">
               <span className="h5">Resources</span>
               <ul className="links-vertical mt-2">
-                <li><a href="#">Documentation</a></li>
-                <li><a href="#">Help Center</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms of Service</a></li>
+                <li><button type="button" className="btn btn-link p-0 text-reset">Documentation</button></li>
+                <li><button type="button" className="btn btn-link p-0 text-reset">Help Center</button></li>
+                <li><button type="button" className="btn btn-link p-0 text-reset">Privacy Policy</button></li>
+                <li><button type="button" className="btn btn-link p-0 text-reset">Terms of Service</button></li>
               </ul>
             </Col>
             <Col xs={12} md={4} className="mb-5 mb-lg-0">
@@ -261,7 +261,7 @@ export default () => {
                   </div>
                 </div>
               </form>
-              <p className="text-muted font-small m-0">We'll never share your details. See our <a className="text-white" href="#">Privacy Policy</a></p>
+              <p className="text-muted font-small m-0">We'll never share your details. See our <button type="button" className="btn btn-link text-white p-0">Privacy Policy</button></p>
             </Col>
           </Row>
           <hr className="bg-gray my-5" />
