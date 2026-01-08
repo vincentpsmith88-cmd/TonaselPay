@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Route, Switch, Redirect } from "react-router-dom";
 import { Routes } from "../routes";
 
@@ -30,7 +30,6 @@ import DocsChangelog from "./documentation/DocsChangelog";
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Preloader from "../components/Preloader";
 
 import Accordion from "./components/Accordion";
 import Alerts from "./components/Alerts";
@@ -50,26 +49,12 @@ import Tooltips from "./components/Tooltips";
 import Toasts from "./components/Toasts";
 
 const RouteWithLoader = ({ component: Component, ...rest }) => {
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setLoaded(true), 1000);
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
-    <Route {...rest} render={props => ( <> <Preloader show={loaded ? false : true} /> <Component {...props} /> </> ) } />
+    <Route {...rest} render={props => ( <Component {...props} /> ) } />
   );
 };
 
 const RouteWithSidebar = ({ component: Component, ...rest }) => {
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setLoaded(true), 1000);
-    return () => clearTimeout(timer);
-  }, []);
-
   const localStorageIsSettingsVisible = () => {
     return localStorage.getItem('settingsVisible') === 'false' ? false : true
   }
@@ -84,7 +69,6 @@ const RouteWithSidebar = ({ component: Component, ...rest }) => {
   return (
     <Route {...rest} render={props => (
       <>
-        <Preloader show={loaded ? false : true} />
         <Sidebar />
 
         <main className="content">
